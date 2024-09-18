@@ -54,7 +54,6 @@ const checkWin = () => {
             (boxtexts[e[0]].innerText !== "")) {
                 let winner = boxtexts[e[0]].innerText;  
                 console.log("Winner Detected:", winner);
-                console.log(scoreO,scoreX);
                 handleWin(winner, e);
                 music.play();
             }
